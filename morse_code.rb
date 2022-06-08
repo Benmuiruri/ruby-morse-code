@@ -38,12 +38,12 @@ def decode_word(str)
 end
 
 def decode_message(long_str)
-  long_str.split("   ").map {
+  long_str.strip.split("   ").map {
     |word| decode_word(word)
   }.join(" ")
 end
 
-puts decode_message("-- -.--   -. .- -- .")
+puts decode_message("      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
 
 # This is a more compressed shorter version of the above
 # def decode_morse(morse_code)
