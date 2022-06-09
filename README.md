@@ -1,8 +1,6 @@
 # ruby-morse-code
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Vet Clinic
-
 > This repo hosts a nifty ruby program which allows you to decipher morse code into english.
 
 ## Built With
