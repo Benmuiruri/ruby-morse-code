@@ -35,3 +35,8 @@ def decode_word(str)
     decode_char(character)
   end.join
 end
+def decode_message(long_str)
+  long_str.strip.split('   ').map do |word|
+    decode_word(word)
+  end.join('  ')
+end
